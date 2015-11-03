@@ -1,0 +1,10 @@
+# robotstxt.org/
+
+User-agent: *
+Disallow: /img/
+Disallow: /js/
+Disallow: /less/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /downloads/
+Disallow: /font-awesome/

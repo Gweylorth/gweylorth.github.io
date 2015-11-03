@@ -1,0 +1,135 @@
+body {
+	background-image: url('../img/patterns/grid_noise.png');
+	background-repeat: repeat;
+}
+
+header {
+	background: none repeat scroll 0% 0% #1FA4B6;
+	border-bottom: 2px solid rgba(150, 150, 150, 0.3);
+	margin-bottom: 50px;
+}
+
+header .intro-text .name {
+    font-size: 3.5em;
+}
+
+header .intro-text .skills {
+    font-size: 1.75em;
+}
+
+.header-info {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-shadow: #000000 0.1em 0.1em 0.1em;
+	background-color: rgba(44, 62, 80, 0.5);
+}
+
+.header-info dl {
+	font-size: 1.3em;
+}
+
+dl > dd {
+	padding-left: 10px;
+}
+
+.header-info dl > dd > .img-responsive {
+	display: inline;
+	margin: 0px;
+	margin-right: 5px;
+	max-width: 7%;
+	width: 7%;
+}
+
+.img-profile {
+	max-width: 250px;
+	width: 100%;
+}
+
+.navbar-default {
+	opacity: 0.95;
+}
+
+.navbar-fixed-top {
+    padding: 10px 0px;
+}
+
+.navbar-fixed-top.navbar-shrink {
+    padding: 5px 0px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #1FA4B6;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #1FA4B6;
+}
+
+section {
+	padding: 50px 0px;
+}
+
+.panel-default {
+	margin-bottom: 50px;
+}
+
+.panel-default > * {
+	border: 1px solid rgba(44, 62, 80, 0.1);
+	border-radius: 2px;
+}
+
+.panel-default > .panel-heading {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: rgba(44, 62, 80, 0.9);
+}
+
+.panel-default > .panel-body {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.accordion-group.col-lg-12.well {
+	padding: 10px;
+	background: none;
+}
+
+.panel-default .accordion-heading {
+	margin-bottom: 10px;
+	height: 70px;
+	line-height: 70px;
+}
+
+.panel-default .accordion-heading p {
+	font-variant: small-caps;
+	font-size: 1.2em;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	width: 80%;
+}
+
+.panel-default .accordion-toggle img {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	height: 70px;
+}
+
+.panel-default .accordion-body {
+	padding-top: 12px;
+	border-top: 1px solid rgba(44, 62, 80, 0.1);
+}
+
+.panel-default .accordion-inner p {
+	font-size: 1em;
+}
+
+section.success {
+    color: #FFF;
+    background: none repeat scroll 0% 0% #1FA4B6;
+}
+
+a, a:hover, a:focus, a:active, a.active {
+    color: #1FA4B6;
+}
