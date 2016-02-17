@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/patterns/grid_noise.png');
+	background-image: url('../img/patterns/grey.png');
 	background-repeat: repeat;
 }
 
@@ -20,24 +20,26 @@ header .intro-text .skills {
 .header-info {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	text-shadow: #000000 0.1em 0.1em 0.1em;
-	background-color: rgba(44, 62, 80, 0.5);
 }
 
 .header-info dl {
 	font-size: 1.3em;
 }
 
-dl > dd {
-	padding-left: 10px;
+.header-info dt {
+	margin: 0.8em;
 }
 
-.header-info dl > dd > .img-responsive {
-	display: inline;
-	margin: 0px;
-	margin-right: 5px;
-	max-width: 7%;
-	width: 7%;
+header a {
+	color: #2c3e50;
+}
+
+header a:hover {
+	color: white;
+}
+
+dl > dd {
+	padding-left: 10px;
 }
 
 .img-profile {
